@@ -12,7 +12,7 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "OpenSSL Cert Details",
+          "label": "SSL Cert Details",
           "submenu": [
             {
               "label": "Decode",
