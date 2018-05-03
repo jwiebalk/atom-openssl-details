@@ -1,10 +1,9 @@
 {
   "name": "atom-openssl-details",
   "main": "./lib/atom-openssl-details",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Decode an SSL Certificate to see the details",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "atom-openssl-details:toggle"
   },
@@ -13,6 +12,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
