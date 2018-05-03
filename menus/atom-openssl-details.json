@@ -2,8 +2,12 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle atom-openssl-details",
-        "command": "atom-openssl-details:toggle"
+        "label": "Decode SSL Certificate",
+        "command": "atom-openssl-details:decode"
+      },
+      {
+        "label": "Generate SSL Bundle",
+        "command": "atom-openssl-details:cfssl_bundle"
       }
     ]
   },
@@ -16,7 +20,11 @@
           "submenu": [
             {
               "label": "Decode",
-              "command": "atom-openssl-details:toggle"
+              "command": "atom-openssl-details:decode"
+            },
+            {
+              "label": "Generate Bundle",
+              "command": "atom-openssl-details:cfssl_bundle"
             }
           ]
         }
