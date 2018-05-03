@@ -10,4 +10,4 @@ Add your OpenSSL binary path to the `config.cson`.
 
 ### Usage
 
-Currently the certificate must be saved into a file. Once that file is loaded click Packages => OpenSSL Cert Details => Decode.
+Currently the certificate must be saved into a file. Once that file is loaded click Packages => SSL Cert Details => Decode.
