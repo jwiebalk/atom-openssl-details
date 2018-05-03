@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle atom-openssl-details",
+        "command": "atom-openssl-details:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "OpenSSL Cert Details",
+          "submenu": [
+            {
+              "label": "Decode",
+              "command": "atom-openssl-details:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
