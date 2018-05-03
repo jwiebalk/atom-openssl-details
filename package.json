@@ -5,8 +5,7 @@
   "description": "Decode an SSL Certificate to see the details",
   "keywords": [],
   "activationCommands": {
-    "atom-workspace": "atom-openssl-details:toggle",
-    "atom-workspace": "atom-openssl-details:cfssl_bundle"
+    "atom-workspace": ["atom-openssl-details:decode", "atom-openssl-details:cfssl_bundle"]
   },
   "repository": "https://github.com/jwiebalk/atom-openssl-details",
   "license": "MIT",

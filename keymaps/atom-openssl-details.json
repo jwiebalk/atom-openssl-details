@@ -1,5 +1,5 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "atom-openssl-details:toggle"
+    "ctrl-alt-o": "atom-openssl-details:decode"
   }
 }

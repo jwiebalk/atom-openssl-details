@@ -3,7 +3,7 @@
     "atom-text-editor": [
       {
         "label": "Decode SSL Certificate",
-        "command": "atom-openssl-details:toggle"
+        "command": "atom-openssl-details:decode"
       },
       {
         "label": "Generate SSL Bundle",
@@ -20,7 +20,7 @@
           "submenu": [
             {
               "label": "Decode",
-              "command": "atom-openssl-details:toggle"
+              "command": "atom-openssl-details:decode"
             },
             {
               "label": "Generate Bundle",
